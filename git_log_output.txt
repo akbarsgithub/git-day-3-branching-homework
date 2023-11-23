@@ -1,0 +1,467 @@
+*   43bea43 2023-11-23 | Merge branch 'feature/html' [user2]
+|\  
+| * 6967805 2023-11-23 | feat(html): add main page [user2]
+| * 8b7525a 2023-11-23 | Revert "feat(html): add main page" [user2]
+| * 62be34c 2023-11-23 | feat(styles): color updated [user2]
+* | 00441df 2023-11-23 | feat(styles): add some styles [user2]
+|/  
+* 17ed212 2023-11-23 | feat(html): add main page [user2]
+* af32f7d 2023-11-23 | Initial commit [akbarsgithub]
+
+C:\Users\akbar.sa\Documents>mkdir daythird
+
+C:\Users\akbar.sa\Documents>cd daythird
+
+C:\Users\akbar.sa\Documents\daythird>git clone https://github.com/akbarsgithub/git-day-3-branching-homework.git
+Cloning into 'git-day-3-branching-homework'...
+info: please complete authentication in your browser...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\akbar.sa\Documents\daythird>cd git-day-3-branching-homework
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>dir
+ Volume in drive C is Windows Pro
+ Volume Serial Number is 5E2B-F00A
+
+ Directory of C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework
+
+11/23/2023  02:14 PM    <DIR>          .
+11/23/2023  02:13 PM    <DIR>          ..
+11/23/2023  02:14 PM                30 README.md
+               1 File(s)             30 bytes
+               2 Dir(s)  386,777,235,456 bytes free
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git branch
+* main
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>cd ..
+
+C:\Users\akbar.sa\Documents\daythird>cd ..
+
+C:\Users\akbar.sa\Documents>cd dayfirst
+
+C:\Users\akbar.sa\Documents\dayfirst>cd git-day-1-practice
+
+C:\Users\akbar.sa\Documents\dayfirst\git-day-1-practice>
+C:\Users\akbar.sa\Documents\dayfirst\git-day-1-practice>dir
+ Volume in drive C is Windows Pro
+ Volume Serial Number is 5E2B-F00A
+
+ Directory of C:\Users\akbar.sa\Documents\dayfirst\git-day-1-practice
+
+11/20/2023  05:13 PM    <DIR>          .
+11/20/2023  04:03 PM    <DIR>          ..
+11/20/2023  05:13 PM               195 index.html
+11/20/2023  05:13 PM             6,307 README.md
+               2 File(s)          6,502 bytes
+               2 Dir(s)  386,779,406,336 bytes free
+
+C:\Users\akbar.sa\Documents\dayfirst\git-day-1-practice>git log
+commit 98e0bc08dfc51405690a45eb91d714d56474c281 (HEAD -> dev, origin/dev)
+Author: akbar.sa <akbar.sa@payme.uz>
+Date:   Mon Nov 20 17:14:36 2023 +0500
+
+    Добавлен HTML-код с обновленным сообщением
+
+commit 79cbcbf8104e61f8c4298b888b0a9788fd2d32e5
+Author: Akbar Saidmalikov <saidmalikov.akbar@tbcacademy.edu.ge>
+Date:   Mon Nov 20 10:53:03 2023 +0000
+
+    First HTML file
+
+C:\Users\akbar.sa\Documents\dayfirst\git-day-1-practice>git akbar
+* 98e0bc0 2023-11-20 | Добавлен HTML-код с обновленным сообщением [akbar.sa]
+* 79cbcbf 2023-11-20 | First HTML file [Akbar Saidmalikov]
+
+C:\Users\akbar.sa\Documents\dayfirst\git-day-1-practice>git branch
+* dev
+  main
+
+C:\Users\akbar.sa\Documents\dayfirst\git-day-1-practice>cd ..
+
+C:\Users\akbar.sa\Documents\dayfirst>cd ..
+
+C:\Users\akbar.sa\Documents>cd daysen
+The system cannot find the path specified.
+
+C:\Users\akbar.sa\Documents>
+C:\Users\akbar.sa\Documents>cd daysecond
+
+C:\Users\akbar.sa\Documents\daysecond>dir
+ Volume in drive C is Windows Pro
+ Volume Serial Number is 5E2B-F00A
+
+ Directory of C:\Users\akbar.sa\Documents\daysecond
+
+11/20/2023  05:19 PM    <DIR>          .
+11/23/2023  02:12 PM    <DIR>          ..
+11/20/2023  05:27 PM    <DIR>          user1
+11/20/2023  05:20 PM    <DIR>          user2
+               0 File(s)              0 bytes
+               4 Dir(s)  386,777,346,048 bytes free
+
+C:\Users\akbar.sa\Documents\daysecond>cd user2
+
+C:\Users\akbar.sa\Documents\daysecond\user2>dir
+ Volume in drive C is Windows Pro
+ Volume Serial Number is 5E2B-F00A
+
+ Directory of C:\Users\akbar.sa\Documents\daysecond\user2
+
+11/20/2023  05:20 PM    <DIR>          .
+11/20/2023  05:19 PM    <DIR>          ..
+11/20/2023  05:33 PM    <DIR>          git-day-2
+               0 File(s)              0 bytes
+               3 Dir(s)  386,777,407,488 bytes free
+
+C:\Users\akbar.sa\Documents\daysecond\user2>cd git-day-2
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>dir
+ Volume in drive C is Windows Pro
+ Volume Serial Number is 5E2B-F00A
+
+ Directory of C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2
+
+11/20/2023  05:33 PM    <DIR>          .
+11/20/2023  05:20 PM    <DIR>          ..
+11/20/2023  05:52 PM                17 index.css
+11/20/2023  05:52 PM               189 index.html
+11/20/2023  05:20 PM             6,280 README.md
+               3 File(s)          6,486 bytes
+               2 Dir(s)  386,777,403,392 bytes free
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>git log
+commit 3ddf7041c811d865cf50af0a49cf169fad6579f8 (HEAD -> main, origin/main, origin/HEAD)
+Author: user2 <akbar.sa@payme.uz>
+Date:   Mon Nov 20 17:53:48 2023 +0500
+
+    add red text
+
+commit 2ad6293a294e201316bf3f6264c86b0ed10a9bcc
+Author: user1 <akbar.sa@payme.uz>
+Date:   Mon Nov 20 17:28:42 2023 +0500
+
+    Add index.html
+
+commit 345d1a9ebd062d8b681ad7a7a3642a9fd64ceb10
+Author: Akbar Saidmalikov <saidmalikov.akbar@tbcacademy.edu.ge>
+Date:   Mon Nov 20 12:17:58 2023 +0000
+
+    Initial commit
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>git akbar
+* 3ddf704 2023-11-20 | add red text [user2]
+* 2ad6293 2023-11-20 | Add index.html [user1]
+* 345d1a9 2023-11-20 | Initial commit [Akbar Saidmalikov]
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>git akbar > git_log_output.txt
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git_log_output.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>cat git_log_output.txt
+'cat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>nano git_log_output.txt
+'nano' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>git add .
+warning: in the working copy of 'git_log_output.txt', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>git commit -m
+error: switch `m' requires a value
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>git commit -m "git lg output"
+[main 3919271] git lg output
+ 1 file changed, 3 insertions(+)
+ create mode 100644 git_log_output.txt
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 456 bytes | 228.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://gitlab.com/automation4815247/git-day-2.git
+   3ddf704..3919271  main -> main
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>git config --get-regexp alias
+alias.lg log --pretty=format:'%h %ad | %s [%an]' --graph --date=short
+alias.akbar log --pretty=format:'%h %ad | %s [%an]' --graph --date=short
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>cd
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2
+
+C:\Users\akbar.sa\Documents\daysecond\user2\git-day-2>cd ..
+
+C:\Users\akbar.sa\Documents\daysecond\user2>cd ..
+
+C:\Users\akbar.sa\Documents\daysecond>cd ..
+
+C:\Users\akbar.sa\Documents>daythird
+'daythird' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\akbar.sa\Documents>cd daythird
+
+C:\Users\akbar.sa\Documents\daythird>cd git-day-3-branching-homework
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git checkout -b feature/html
+Switched to a new branch 'feature/html'
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git branch
+* feature/html
+  main
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git status
+On branch feature/html
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git add .
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git commit -m "feat(html): add main page"
+[feature/html 17ed212] feat(html): add main page
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git merge feature/html
+Updating af32f7d..17ed212
+Fast-forward
+ index.html | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git checkout -b feature/styles
+Switched to a new branch 'feature/styles'
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git commit -m "feat(styles): add some styles"
+On branch feature/styles
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git add .
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git commit -m "feat(styles): add some styles"
+[feature/styles 00441df] feat(styles): add some styles
+ 1 file changed, 3 insertions(+)
+ create mode 100644 index.css
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git branch
+  feature/html
+  feature/styles
+* main
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git merge feature/styles
+Updating 17ed212..00441df
+Fast-forward
+ index.css | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 index.css
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git branch
+  feature/html
+  feature/styles
+* main
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git checkout feature/html
+Switched to branch 'feature/html'
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git status
+On branch feature/html
+nothing to commit, working tree clean
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git status
+On branch feature/html
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git add .
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git commit -m "feat(styles): color updated"
+[feature/html 62be34c] feat(styles): color updated
+ 1 file changed, 3 insertions(+)
+ create mode 100644 index.css
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git log
+commit 62be34ce465f7f8446f8841adab26b5d552bc63c (HEAD -> feature/html)
+Author: user2 <akbar.sa@payme.uz>
+Date:   Thu Nov 23 15:07:38 2023 +0500
+
+    feat(styles): color updated
+
+commit 17ed212835d924c46c864f0b902a1abe4804e69e
+Author: user2 <akbar.sa@payme.uz>
+Date:   Thu Nov 23 15:01:32 2023 +0500
+
+    feat(html): add main page
+
+commit af32f7d06b3a24c2acd20161e7242f932c9303f4 (origin/main, origin/HEAD)
+Author: akbarsgithub <151825696+akbarsgithub@users.noreply.github.com>
+Date:   Thu Nov 23 14:12:38 2023 +0500
+
+    Initial commit
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git revert 17ed212835d924c46c864f0b902a1abe4804e69e
+[feature/html 8b7525a] Revert "feat(html): add main page"
+ 1 file changed, 13 deletions(-)
+ delete mode 100644 index.html
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git add .
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git branch
+* feature/html
+  feature/styles
+  main
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git commit -m "feat(html): add main page"
+[feature/html 6967805] feat(html): add main page
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git log
+commit 6967805a7ce93b31333cad774aa5a00c00a6b943 (HEAD -> feature/html)
+Author: user2 <akbar.sa@payme.uz>
+Date:   Thu Nov 23 15:14:54 2023 +0500
+
+    feat(html): add main page
+
+commit 8b7525a6d5513dbcac7b7e8c6e7c26d35eb301c8
+Author: user2 <akbar.sa@payme.uz>
+Date:   Thu Nov 23 15:11:55 2023 +0500
+
+    Revert "feat(html): add main page"
+
+    This reverts commit 17ed212835d924c46c864f0b902a1abe4804e69e.
+
+commit 62be34ce465f7f8446f8841adab26b5d552bc63c
+Author: user2 <akbar.sa@payme.uz>
+Date:   Thu Nov 23 15:07:38 2023 +0500
+
+    feat(styles): color updated
+
+commit 17ed212835d924c46c864f0b902a1abe4804e69e
+Author: user2 <akbar.sa@payme.uz>
+Date:   Thu Nov 23 15:01:32 2023 +0500
+
+    feat(html): add main page
+
+commit af32f7d06b3a24c2acd20161e7242f932c9303f4 (origin/main, origin/HEAD)
+Author: akbarsgithub <151825696+akbarsgithub@users.noreply.github.com>
+Date:   Thu Nov 23 14:12:38 2023 +0500
+
+    Initial commit
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git branch
+  feature/html
+  feature/styles
+* main
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git merge feature/html
+Auto-merging index.css
+CONFLICT (add/add): Merge conflict in index.css
+Automatic merge failed; fix conflicts and then commit the result.
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git merge feature/html
+Already up to date.
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git status
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git akbar > git_log_output.txt
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>dir
+ Volume in drive C is Windows Pro
+ Volume Serial Number is 5E2B-F00A
+
+ Directory of C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework
+
+11/23/2023  03:19 PM    <DIR>          .
+11/23/2023  02:13 PM    <DIR>          ..
+11/23/2023  03:19 PM               431 git_log_output.txt
+11/23/2023  03:17 PM                35 index.css
+11/23/2023  03:16 PM               225 index.html
+11/23/2023  02:14 PM                30 README.md
+               4 File(s)            721 bytes
+               2 Dir(s)  386,739,306,496 bytes free
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git branch
+  feature/html
+  feature/styles
+* main
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>git push origin main
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (16/16), 1.55 KiB | 317.00 KiB/s, done.
+Total 16 (delta 6), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (6/6), done.
+To https://github.com/akbarsgithub/git-day-3-branching-homework.git
+   af32f7d..43bea43  main -> main
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>dir
+ Volume in drive C is Windows Pro
+ Volume Serial Number is 5E2B-F00A
+
+ Directory of C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework
+
+11/23/2023  03:19 PM    <DIR>          .
+11/23/2023  02:13 PM    <DIR>          ..
+11/23/2023  03:19 PM               431 git_log_output.txt
+11/23/2023  03:17 PM                35 index.css
+11/23/2023  03:16 PM               225 index.html
+11/23/2023  02:14 PM                30 README.md
+               4 File(s)            721 bytes
+               2 Dir(s)  386,736,271,360 bytes free
+
+C:\Users\akbar.sa\Documents\daythird\git-day-3-branching-homework>
